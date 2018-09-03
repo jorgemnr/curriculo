@@ -1,2 +1,2 @@
 # curriculo
-Curriculo em HTML5 e CSS
+Currículo em HTML5, CSS3 e JavaScript Vanilla
