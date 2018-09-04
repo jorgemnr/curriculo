@@ -116,22 +116,11 @@ h1#nome {
 
 /*=== Abre/Fecha seções ===*/
 
-/* #divConteudo {
+.divConteudo {
     overflow: hidden;
-    transition: max-height 0.5s linear;
-    max-height: 1000px;
-} */
-
-#divConteudo {
-    overflow: hidden;
-    /* height: auto; */
-    transition: height 0.5s linear;
+    transition: height 0.5s ease-in-out;
 }
 
-/* #divConteudo.Reduz {
-    max-height: 0px;
-}
- */
 .fas.fa-minus-circle, .fas.fa-plus-circle {
     position: absolute;
     right: 0;
@@ -183,34 +172,34 @@ span.ramo {
 /*=== SEÇÕES ===*/
 
 #resumoProfissional section {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 #resumoProfissional section header {
     line-height: 1.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 #hisProfissional section {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 #hisProfissional section header {
     line-height: 1.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 #formacao section {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 #formacao section header {
     line-height: 1.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 #portfolio section {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 #btnTopo {
