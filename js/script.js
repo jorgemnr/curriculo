@@ -23,7 +23,9 @@ for (let index = 0; index < TodosAbre.length; index++) {
 }
 function fncAbre(e) {
     //Mostrar o divConteudo
-    e.parentNode.parentNode.parentNode.lastElementChild.style.display = "block";
+    //e.parentNode.parentNode.parentNode.lastElementChild.style.display = "block";
+    let h = e.parentNode.parentNode.parentNode.lastElementChild.scrollHeight;
+    e.parentNode.parentNode.parentNode.lastElementChild.style.height = h +"px";
     //mostrar Menos
     e.previousElementSibling.style.display = "block";
     //esconde Mais
@@ -37,7 +39,10 @@ for (let index = 0; index < TodosFecha.length; index++) {
 }
 function fncFecha(e) {
     //Esconde o divConteudo
-    e.parentNode.parentNode.parentNode.lastElementChild.style.display = "none";
+    //e.parentNode.parentNode.parentNode.lastElementChild.style.display = "none";
+    let h = e.parentNode.parentNode.parentNode.lastElementChild.scrollHeight;
+    e.parentNode.parentNode.parentNode.lastElementChild.style.height = h-50 +"px";
+    e.parentNode.parentNode.parentNode.lastElementChild.style.height = "0px";
     //mostrar Mais
     e.nextElementSibling.style.display = "block";
     //esconde Menos
