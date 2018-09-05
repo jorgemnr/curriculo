@@ -46,12 +46,10 @@ function fncFecha(e) {
     e.style.display = "none";
 }
 
-
 //Definir os Height em Pixels
-/* window.onloadedmetadata = function () {
+window.onload = function () {
     let divsCounteudo = document.getElementsByClassName("divConteudo");
     for (let index = 0; index < divsCounteudo.length; index++) {
-        //divsCounteudo[index].height = divsCounteudo[index].style.scrollHeight;
-        console.log(index + ":" + divsCounteudo[index].style.scrollHeight);
+        divsCounteudo[index].style.height = divsCounteudo[index].scrollHeight + "px";
     }
-} */
+}
